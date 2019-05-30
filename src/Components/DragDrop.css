@@ -1,0 +1,71 @@
+.App {
+    text-align: center;
+    width: 95%;
+    margin: 15px auto;
+}
+
+.container-drag {
+    text-align: center;
+}
+
+.wip {
+    position: absolute;
+    width: 150px;
+    height: 100vh;
+    left: 0;
+    top: 10;
+    background-color: #EEEEEE;
+    border-right: 1px dotted;
+}
+
+.header {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+    width:100%;
+}
+
+.task-header {
+    display: inline-block;
+    background-color: skyblue;
+    width:100%;
+}
+
+/*.droppable {*/
+/*    position: absolute;*/
+/*    width: 150px;*/
+/*    height: 100vh;*/
+/*    right: 0;*/
+/*    top: 10;*/
+/*    background-color: #9E9E9E;*/
+/*    border-left: 1px dotted;*/
+/*}*/
+
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 5px auto;
+    line-height: 5em;
+}
+.container {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    padding: 10px;
+}
+.one {
+    width: 15%;
+    height: 800px;
+    border-right: 1px solid black;
+    /*background: red;*/
+    float: left;
+}
+.two {
+    margin-left: 15%;
+    height: 800px;
+    border: 1px solid red;
+    /*background: black;*/
+}
+
